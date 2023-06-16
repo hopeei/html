@@ -42,7 +42,7 @@ const myObject = {
 const secondsInHour = 60 * 60;
 const secondsInDay = secondsInHour * 24;
 const secondsInMonth = secondsInDay * 30;
-aler(`The number of seconds in an hour: ${secondsInHour}`);
-aler(`The number of seconds in a day: ${secondsInDay}`);
+alert(`The number of seconds in an hour: ${secondsInHour}`);
+alert(`The number of seconds in a day: ${secondsInDay}`);
 alert(`The number of seconds in a month: ${secondsInMonth}`);
   
