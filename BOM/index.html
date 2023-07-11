@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM</title>
+</head>
+<body>
+    <h1>Browser Object Model</h1>
+    <img  src="img/BOM.svg" alt="BOM">
+<p id ='text'>I learning JavaScript events!</p> 
+<div>
+        <button onclick="changeCSS()">Change style!</button>
+</div>
+<div>
+  <button id="button1">Click to make the page blue</button>
+  <button id="button2">Double-click to make the page pink</button>
+  <button id="button3">Click and hold to make the page brown</button>
+  <br>
+  <a href="#" id="link">Hover over to make page yellow</a>
+</div>
+<select id="list">
+    <option value="1">Peter</option>
+    <option value="2">John</option>
+    <option value="3">Alise</option>
+    <option value="4">Alex</option>
+    <option value="5">Iren</option>
+  </select>
+  <br>
+  <button onclick="removeElement()">Choose and Delete</button>
+
+  <button style="display: block;" onclick="showMessage(event)" onmouseover="showMessage(event)" onmouseout="showMessage(event)">Live button!</button>
+  <p id="message"></p>
+    <script src="bom.js"></script>
+</body>
+</html>
