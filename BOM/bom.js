@@ -10,7 +10,6 @@ setTimeout(() => {
   value.close();
 }, 6000);
 
-//напишіть функцію changeCSS(), яка спрацьовуватиме по кліку на кнопку і змінюватиме стиль вмісту тега <p>: колір шрифту – оранжевий, розмір шрифту 20px, шрифт сімейства "Comic Sans MS".
 // ---------------------------------- task 2
 function changeCSS() {
     let change = document.getElementById('text')
